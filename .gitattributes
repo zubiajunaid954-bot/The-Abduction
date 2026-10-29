@@ -1,0 +1,20 @@
+# Unity text assets: normalise line endings and keep merges sane
+*.cs text eol=lf diff=csharp
+*.shader text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.anim text eol=lf merge=unityyamlmerge
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.wav binary
+*.mp3 binary
